@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/96cee8cbe4.js" crossorigin="anonymous"></script>
+    <!--FontAwesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar & Sidenav</title>
+</head>
+<body>
+        <nav class="purple darken-4 nav-extended">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo center" target="_blank">
+                        <img src="Images/logo.png" alt="" class="responsive-img"
+                        width="120"
+                        height="120">
+                    </a>
+                    <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank"><i class="fa-solid fa-map-location-dot"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-content">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab left"><a href="#Flavors">Flavors</a></li>
+                        <li class="tab Left"><a href="#Sizes">Sizes</a></li>
+                        <li class="tab right"><a href="#Feedbacks">Feedbacks</a></li>
+                        <li class="tab right"><a href="#Prices">Prices</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <h1 class="center text teal-text darken-4">Navbar</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
+        <h3 class="teal-text darken-4">Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your <'ul'> that contains them.</p>
+        <nav class="teal darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo" target="_blank">
+                        <i class="fa-solid fa-cake-candles"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707" target="_blank">Dedication Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270" target="_blank">Themed Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000" target="_blank">Customized Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933" target="_blank">Tiered Cake</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h3 class="teal-text darken-3">Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your <'ul'> that contains them.</p>
+        <nav class="teal darken-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo right" target="_blank">
+                        <i class="fa-solid fa-spoon yellow-text"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707" target="_blank">Dedication Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270" target="_blank">Themed Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000" target="_blank">Customized Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933" target="_blank">Tiered Cake</a>
+                        </li>
+                    </ul>                        
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h3 class="teal-text darken-2">Centering the logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your <'a class="brand-logo">. You will have to make sure yourself that links do not overlap if you use this.</p>
+        <nav class="teal darken-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo center" target="_blank">
+                        <i class="fa-solid fa-utensils pink-text text-accent-1"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707" target="_blank">Dedication Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270" target="_blank">Themed Cake</a>
+                        </li>
+                    </ul>    
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">    
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000" target="_blank">Customized Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933" target="_blank">Tiered Cake</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h3 class="teal-text darken-1">Active Items</h3>
+        <p>Add active class to your li tags to denote the current page.</p>
+        <nav class="teal darken-1">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo center" target="_blank">
+                        <i class="fa-solid fa-mug-saucer cyan-text text-accent-2"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707" target="_blank">Dedication Cake</a>
+                        </li>
+                        <li class="active">
+                            <a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270" target="_blank">Themed Cake</a>
+                        </li>
+                    </ul>    
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">    
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000" target="_blank">Customized Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933" target="_blank">Tiered Cake</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br><br>
+        <h3 class="pink-text">Extended Navbar with Tabs</h3>
+        <p>To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.</p>
+        <nav class="pink darken-4 nav-extended">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo" target="_blank">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                    <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707" target="_blank">Dedication Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270" target="_blank">Themed Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000" target="_blank">Customized Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933" target="_blank">Tiered Cake</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-content">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab"><a href="#test1">Test 1</a></li>
+                        <li class="tab"><a href="#test2">Test 2</a></li>
+                        <li class="tab"><a href="#test3">Test 3</a></li>
+                        <li class="tab"><a href="#test4">Test 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Sidenav Structure-->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707">Dedication</a></li>
+            <li><a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000">Customized</a></li>
+            <li><a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270">Themed</a></li>
+            <li><a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933">Tiered</a></li>
+        </ul>
+        <!--Tabs Structure-->
+        <div class="row">
+            <div class="col s12" id="test1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Images/Dedication.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12" id="test2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Images/Themed.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12" id="test3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Images/Customized.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12" id="test4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Images/Tiered.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3 class="orange-text text darken-4">Navbar Dropdown Menu</h3>
+        <p>To add a navbar dropdown menu, add the ul dropdown structure into the page. Then, add an element to trigger the dropdown menu. Make sure to supply the id of the dropdown structure to the data-target attribute of the dropdown trigger.</p>
+        <nav class="orange darken-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100064244194909" class="brand-logo left" target="_blank">
+                        <i class="fa-solid fa-spoon white-text"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=260748285897052&set=pcb.260748402563707" target="_blank">Dedication Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=610694984415303&set=pcb.610695314415270" target="_blank">Themed Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=695675352583932&set=pb.100064244194909.-2207520000" target="_blank">Customized Cake</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/photo/?fbid=437198558431614&set=pcb.437198701764933" target="_blank">Tiered Cake</a>
+                        </li>
+                        <li>
+                            <a class="dropdwon-trigger" href="#!" 
+                            data-target="dropdown1">
+                            <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                    </ul>                        
+                </div>
+                <div>
+                <!--Dropdown Structure-->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Gallery</a><li>
+                    <li><a href="#!">Prices</a><li>
+                    <li><a href="#!">About</a><li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    
+    
+    
+    
+    
+    </div>
+    <div style="height: 1000px;"></div>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.tabs').tabs();
+            $('.sidenav').sidenav({
+                edge:'right'
+            });
+            $('.dropdown-trigger').dropdown();
+        });
+    </script>
+    
+</body>
+</html>
