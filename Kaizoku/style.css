@@ -1,0 +1,31 @@
+.body {
+    background-image: url(images/One\ Piece\ background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.brand-logo {
+    width: 230px;
+    height: 230px;
+    margin-top: -60px;
+}
+
+.sidenav {
+    background-color: darkred;
+    color: white;
+}
+.footer-logo {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.yellow-heart {
+    font-size: small;
+    color: yellow;
+}
+
+.fa-star {
+    color: yellow;
+    font-size: xx-small;
+}
+
